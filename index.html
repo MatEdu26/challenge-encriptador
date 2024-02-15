@@ -3,30 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" src="style.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Encriptador</title>
 </head>
 <body>
-    <header class="titulo">
-        <img src="img/logo-fundo-azul.png" alt="logo de alura">
-        <h1>(Des)Encriptador de Texto</h1>
+    <header>
+        <img src="img/logo-fundo-azul.png" class="logotipo" alt="logo de alura">
     </header>
-    <ul>
-        <li>
-            <div>
-                <textarea placeholder="Ingrese el texto aqui"></textarea>
-                <h4>Solo letras minúsculas y sin acentos</h4>
-                <button>Encriptar</button>
-                <button>Desencriptar</button>
-            </div>
-        </li>
-        <li>
-            <div>
-                <textarea></textarea>
-
-            </div>
-        </li>
-    </ul>
+    <main>
+        <ul class="caja-texto">
+            <li>
+                <div class="ingreso">
+                    <textarea placeholder="Ingrese el texto aqui"></textarea>
+                    <h4>Solo letras minúsculas y sin acentos</h4>
+                    <button type="button">Encriptar</button>
+                    <button type="button">Desncriptar</button>
+                </div>
+            </li>
+            <li>
+                <div class="egreso">
+                    <textarea placeholder="Aqui se ve el resultado" class="texto-encriptado"></textarea>
+                    <button type="button">Copiar</button>
+                </div>
+            </li>
+        </ul>
+    </main>
+    
     <script src="app.js"></script>
 </body>
+<footer>
+    <h5>Creado por Matias Bassi</h5>
+    <h5>&copy 2024</h5>
+</footer>
 </html>

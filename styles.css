@@ -1,0 +1,54 @@
+body{
+    background: #F0f8ff;
+}
+
+.logotipo{
+    width: 100px;
+    margin: 40 0 0 40;
+}
+
+main{
+    width: 940px;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block; 
+}
+
+div{
+    margin: 10px 5px;
+    border-radius: 5px;
+    border: black;
+    
+}
+
+textarea{
+    width: 400px;
+    height: 500px;
+}
+
+.ingreso textarea{
+    background: #F0f8ff;
+}
+
+.egreso textarea{
+    background-image: url(img/fondo-desencriptado.png);
+}
+
+h5{
+    color: white;
+}
+
+footer{
+    background: black;
+    font-style: italic;
+    width: auto;
+    height: auto;
+    text-align: center;
+    position:static;
+}
