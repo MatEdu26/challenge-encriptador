@@ -71,6 +71,10 @@ button{
     color: white;
 }
 
+.boton-copiar{
+    background-color: green;
+}
+
 /* Footer */
 
 h5{
