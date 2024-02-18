@@ -19,7 +19,7 @@ ul{
 .caja-texto {
     display: inline-flex; 
     vertical-align: top;
-    margin: 0 10px;
+    margin: 0 5px;
     box-sizing: border-box;
     align-items: flex-start;
 }
@@ -46,18 +46,15 @@ textarea{
     background-image: url(img/Muñeco.png);
     background-size: auto;
     background-repeat: no-repeat;
+    background-position: bottom;
 }
-
-/*.egreso textarea{
-    background-image: url(img/fondo-desencriptado.png);
-}*/
 
 /* Botones */
 
 button{
-    margin-top: 10px;
+    margin: 5px;
     border-radius: 5px;
-    border: none;
+    border: medium; 
     padding: 10px 20px;
     font-size: 16px;
     font-weight: bold;
@@ -67,12 +64,12 @@ button{
 .boton-encriptar {
     background-color: #0A3871;
     color: white;
-  }
+}
   
-  .boton-desencriptar {
+.boton-desencriptar {
     background-color: #D8DFE8;
     color: white;
-  }
+}
 
 /* Footer */
 
@@ -87,4 +84,26 @@ footer{
     height: auto;
     text-align: center;
     position: static;
+}
+
+@media screen and (max-width: 768px){
+    main{
+      width: 100%;
+    }
+    
+    .caja-texto{
+      display: block;
+      margin: 0;
+      width: 100%;
+    }
+    
+    textarea{
+      width: 100%;
+      height: 200px;
+    }
+    
+    .boton-encriptar, .boton-desencriptar{
+      display: block;
+      margin: 10px auto;
+    }
 }
