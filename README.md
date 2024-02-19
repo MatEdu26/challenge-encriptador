@@ -1,4 +1,4 @@
-#(Des)Encriptador de texto
+# (Des)Encriptador de texto
 
 Este fue un proyecto realizado para un Challenge de [Alura Latam](https://www.aluracursos.com/)
 
